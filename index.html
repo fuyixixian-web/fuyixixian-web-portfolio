@@ -1,0 +1,302 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="胡宇萱 — AIGC Content × AI Agent × Visual Storytelling" />
+  <title>胡宇萱 / HU YUXUAN — Portfolio draft</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230055b3'/%3E%3Cpath d='M32 6l5 18 18-5-13 13 13 8-18 1 2 18-7-16-8 16 2-18-18-1 13-8-13-13 18 5z' fill='white'/%3E%3C/svg%3E" />
+  <style>
+    :root{--blue:#0055b3;--ink:#050505;--paper:#f4f5f7;--pink:#fa69b5;--line:3px solid var(--ink)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif;font-size:16px}a{color:inherit} .impact{font-family:Impact,"Arial Black",sans-serif;letter-spacing:.025em}.nav{position:sticky;top:0;z-index:9;display:flex;justify-content:space-between;align-items:center;padding:14px 3vw;background:var(--paper);border-top:8px solid var(--blue);border-bottom:var(--line)}.nav a{text-decoration:none;font-weight:900;font-size:.76rem}.nav .mark{font-size:1.3rem;color:var(--blue)}.nav-links{display:flex;gap:22px}.hero{min-height:88vh;position:relative;overflow:hidden;padding:7vh 6vw 4vh;display:grid;grid-template-columns:1.4fr .8fr;align-items:end}.hero:before{content:"";position:absolute;width:min(47vw,620px);aspect-ratio:1;border-radius:50%;background:var(--blue);left:-11vw;top:15vh}.hero h1{position:relative;z-index:1;font-size:clamp(4rem,11vw,11rem);line-height:.77;margin:0;color:var(--blue);max-width:850px}.hero .statement{position:relative;z-index:1;font-weight:900;font-size:clamp(1.2rem,2.25vw,2.2rem);line-height:1.08;max-width:520px;margin:32px 0}.zh{font-size:1rem;font-weight:bold;max-width:410px}.portrait{position:relative;z-index:2;justify-self:center;width:min(27vw,320px);transform:rotate(3deg);background:#fff;border:8px solid #fff;box-shadow:13px 14px 0 var(--ink)}.portrait img{width:100%;display:block;aspect-ratio:3/4;object-fit:cover}.sticker{position:absolute;z-index:3;right:9%;top:18%;font-size:clamp(5rem,12vw,12rem);color:var(--blue);transform:rotate(15deg)}.ticker{background:var(--ink);color:#fff;padding:13px;overflow:hidden;white-space:nowrap;font-weight:900;letter-spacing:.06em}.ticker span{display:inline-block;animation:slide 18s linear infinite}@keyframes slide{to{transform:translateX(-35%)}}.section{padding:90px 6vw;border-bottom:var(--line)}.eyebrow{font-size:.75rem;font-weight:900;letter-spacing:.1em;color:var(--blue);margin-bottom:12px}.title{font-size:clamp(3rem,7vw,7rem);line-height:.82;margin:0 0 35px}.capabilities{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:var(--line)}.cap{padding:26px;min-height:260px;border-right:var(--line);position:relative}.cap:last-child{border:0}.cap b{display:block;font-size:3.5rem;color:var(--blue);line-height:1}.cap h3{font-size:1.25rem;margin:18px 0 9px}.cap p{line-height:1.45;margin:0;font-weight:bold}.featured{background:var(--blue);color:white;position:relative;overflow:hidden}.featured:after{content:"✦";position:absolute;font-family:Arial;font-size:35vw;right:-4vw;bottom:-14vw;color:#084c9a}.featured .eyebrow{color:white}.feature-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:end}.feature-title{font-size:clamp(4rem,10vw,10rem);line-height:.75;margin:0}.feature-meta{font-weight:bold;line-height:1.6}.button{display:inline-block;border:var(--line);background:#fff;padding:13px 20px;font-weight:900;text-decoration:none;box-shadow:6px 6px 0 var(--ink)}.case-head{background:#fff}.facts{display:grid;grid-template-columns:repeat(3,1fr);border:var(--line)}.facts div{padding:20px;border-right:var(--line)}.facts div:last-child{border:0}.facts b{display:block;color:var(--blue);font-size:.75rem;margin-bottom:10px}.facts span{font-weight:900;line-height:1.35}.flow{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:42px}.flow span{border:var(--line);padding:13px 15px;font-weight:900;background:var(--paper)}.flow i{font-style:normal;font-size:1.6rem;color:var(--blue)}.pink{background:var(--pink)}.chapter{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px}.chapter h2{font-size:clamp(3rem,6vw,6.5rem);line-height:.8;margin:0}.chapter p{font-size:1.08rem;line-height:1.6;max-width:680px}.character-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px}.character-grid figure{margin:0;background:#fff;border:var(--line);padding:8px;transform:rotate(var(--r,0deg))}.character-grid img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;filter:saturate(1.12)}figcaption{font-size:.72rem;font-weight:900;margin-top:8px}.engines{display:grid;grid-template-columns:1fr 1fr;border:var(--line);margin-top:32px}.engine{padding:30px;min-height:350px}.engine+ .engine{border-left:var(--line)}.engine h3{font-size:2.2rem;line-height:.9;margin:0 0 25px}.engine ul{padding-left:18px;line-height:1.65;font-weight:bold}.stats{background:var(--ink);color:#fff;display:grid;grid-template-columns:repeat(4,1fr);gap:2px}.stat{padding:28px;background:var(--ink)}.stat b{display:block;color:var(--pink);font-size:clamp(2.1rem,4vw,4.5rem);line-height:1}.stat small{font-weight:bold}.note{font-size:.78rem;line-height:1.45;margin-top:26px}.brand-flow{display:flex;gap:0;align-items:stretch;margin-top:36px}.brand-flow div{padding:20px;border:var(--line);font-weight:900;flex:1;background:#fff}.brand-flow div+div{border-left:0}.roadmap{display:flex;gap:0;flex-wrap:wrap;margin-top:24px}.roadmap span{padding:12px 15px;border:var(--line);background:#fff;font-weight:bold;margin:0 -3px -3px 0}.system{background:var(--ink);color:#fff}.system .eyebrow{color:var(--pink)}.architecture{margin-top:44px;display:grid;grid-template-columns:1fr .5fr 1fr;gap:18px;align-items:center}.node{border:2px solid #fff;padding:18px;font-weight:900;min-height:70px;display:flex;align-items:center}.node.blue{background:var(--blue)}.arrow{text-align:center;font-size:3rem;color:var(--pink)}.agent-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:45px}.agent{border:2px solid #fff;padding:22px;min-height:270px}.agent strong{color:var(--pink);font-size:.73rem}.agent h3{font-size:1.4rem;margin:15px 0}.todo{color:#aeb0b5;border:1px dashed #aeb0b5;padding:11px;font-size:.85rem}.lab-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.lab-grid video{width:100%;aspect-ratio:9/16;object-fit:cover;background:#111;border:var(--line);display:block}.lab-grid p{font-weight:900;margin:7px 0 25px}.other{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.project{border:var(--line);background:#fff;padding:24px;min-height:175px;display:flex;flex-direction:column;justify-content:space-between}.project h3{font-size:2rem;line-height:.95;margin:0}.project small{font-weight:bold;color:var(--blue)}.about{display:grid;grid-template-columns:1fr 1fr;gap:50px;background:var(--blue);color:#fff}.about .title{color:#fff}.about h3{margin:0 0 9px}.about p{line-height:1.55;font-weight:bold}.footer{padding:40px 6vw;background:#fff;display:flex;justify-content:space-between;gap:25px;font-weight:900}.footer a{color:var(--blue)}
+    .note-section { background: var(--paper); padding: 10vh 4vw; border-top: var(--line); position: relative; overflow: hidden; }
+    .note-stage { position: relative; max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: 0.55fr 1.3fr 0.55fr; gap: 1rem; align-items: end; }
+    .note-side { position: relative; z-index: 2; margin: 0; transform-origin: 50% 100%; max-width: 200px; }
+    .note-side img { width: 100%; display: block; }
+    .note-side.left { justify-self: end; animation: wobbleL 4.5s ease-in-out infinite; }
+    .note-side.right { justify-self: start; animation: wobbleR 4.5s ease-in-out infinite; }
+    @keyframes wobbleL { 0%,100% { transform: rotate(-6deg); } 50% { transform: rotate(4deg); } }
+    @keyframes wobbleR { 0%,100% { transform: rotate(6deg); } 50% { transform: rotate(-4deg); } }
+    .note-card { background: #fff; border: 4px solid var(--blue); box-shadow: 10px 10px 0 rgba(0,0,0,.12); padding: 3rem 2.6rem; position: relative; z-index: 3; }
+    .note-card p { margin: 0 0 1rem; font-size: .98rem; font-weight: 700; line-height: 1.8; color: #1a1a1a; }
+    .note-card p:last-child { margin-bottom: 0; }
+    .note-card .note-mail { color: var(--blue); text-decoration: none; border-bottom: 2px solid var(--blue); font-weight: 900; }
+    .note-star { position: absolute; color: var(--blue); font-size: 3rem; z-index: 1; }
+    .note-star.s1 { top: 5%; left: 3%; transform: rotate(15deg); }
+    .note-star.s2 { bottom: 8%; right: 3%; transform: rotate(-10deg); }
+    @media (max-width: 880px) { .note-stage { grid-template-columns: 1fr; } .note-side { max-width: 240px; margin: 0 auto; } }
+@media(max-width:760px){.nav-links{gap:11px}.nav{padding:12px 4vw}.hero{grid-template-columns:1fr;min-height:86vh;padding:9vh 6vw}.portrait{position:absolute;width:46vw;right:5vw;bottom:8vh;opacity:.9}.sticker{right:2%;top:11%}.capabilities,.facts,.stats,.agent-cards{grid-template-columns:1fr}.cap,.facts div{border-right:0;border-bottom:var(--line)}.cap:last-child,.facts div:last-child{border-bottom:0}.feature-grid,.chapter{grid-template-columns:1fr}.character-grid{grid-template-columns:repeat(2,1fr)}.engines,.about,.other{grid-template-columns:1fr}.engine+.engine{border-left:0;border-top:var(--line)}.brand-flow{flex-direction:column}.brand-flow div+div{border-left:var(--line);border-top:0}.architecture{grid-template-columns:1fr}.arrow{transform:rotate(90deg)}.lab-grid{grid-template-columns:repeat(2,1fr)}.footer{display:block}.footer p{margin:0 0 16px}}
+  </style>
+  <style>
+    /* Keep 核心案例：以清晰的中文信息层级替换原先的英文占位文案。 */
+    .feature-grid { grid-template-columns: minmax(0, 1.15fr) minmax(19rem, .85fr); gap: clamp(2rem, 5vw, 6rem); align-items: center; }
+    .feature-title { display: grid; gap: .22em; margin: 0; font-size: clamp(3.75rem, 8.3vw, 9rem); line-height: .82; letter-spacing: .02em; }
+    .feature-title .keep-word { font-family: Impact, "Arial Black", sans-serif; }
+    .feature-title .keep-word-sm { font-size: .62em; line-height: 1; }
+    .feature-title .case-word { font-family: "PingFang SC", "Microsoft YaHei", sans-serif; font-size: .53em; font-weight: 900; letter-spacing: .08em; }
+    .feature-meta { max-width: 46rem; margin: 1.8rem 0 0; font-size: clamp(1rem, 1.35vw, 1.35rem); font-weight: 800; line-height: 1.85; letter-spacing: .025em; }
+    .feature-role-card { display: grid; gap: 1.25rem; align-self: center; padding: clamp(1.4rem, 2.6vw, 2.2rem); border: 3px solid var(--ink); background: #fff; color: var(--ink); box-shadow: 8px 8px 0 rgba(0,0,0,.18); text-decoration: none; }
+    .feature-role-card p { margin: 0; }
+    .role-label { color: var(--blue); font-size: .78rem; font-weight: 900; letter-spacing: .12em; }
+    .role-company { font-size: clamp(1.18rem, 1.55vw, 1.55rem); font-weight: 900; line-height: 1.55; }
+    .role-time { font-size: 1rem; font-weight: 800; line-height: 1.6; }
+    .role-divider { height: 2px; background: var(--ink); }
+    .role-directions { display: grid; gap: .85rem; font-size: clamp(.98rem, 1.22vw, 1.2rem); font-weight: 800; line-height: 1.65; }
+    .role-directions span { display: grid; grid-template-columns: 2.25rem minmax(0, 1fr); gap: .3rem; align-items: start; }
+    .role-directions b { color: var(--blue); font-family: Impact, "Arial Black", sans-serif; font-size: 1.1em; letter-spacing: .04em; }
+    .zx-section { background: var(--ink); color: #fff; }
+    .zx-section .eyebrow { color: var(--pink); }
+    .zx-section .title { color: #fff; }
+    .zx-group { margin-top: 2.6rem; }
+    .zx-group-label { display: inline-block; padding: .35rem .8rem; background: var(--blue); color: #fff; font-size: .75rem; font-weight: 900; letter-spacing: .14em; margin-bottom: 1rem; }
+    .zx-group-desc { margin: 0 0 1.2rem; font-size: .88rem; font-weight: 700; line-height: 1.65; color: #cfd2d6; max-width: 720px; }
+    .zx-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 1.2rem; max-width: 880px; margin: 0 auto; }
+    .zx-card { background: #fff; color: var(--ink); border: 3px solid #fff; box-shadow: 6px 6px 0 rgba(255,255,255,.18); display: flex; flex-direction: column; }
+    .zx-card video { width: 100%; height: auto; display: block; background: #000; }
+    .zx-card-body { padding: .9rem 1rem 1.1rem; }
+    .zx-card-body h4 { margin: 0 0 .4rem; font-family: Impact,"Arial Black",sans-serif; font-size: 1.05rem; letter-spacing: .02em; }
+    .zx-card-body p { margin: 0; font-size: .78rem; font-weight: 700; line-height: 1.55; color: #333; }
+    .zx-card video { cursor: pointer; }
+    .video-modal { position: fixed; inset: 0; background: rgba(0,0,0,.92); z-index: 99; display: none; align-items: center; justify-content: center; padding: 4vh 4vw; }
+    .video-modal.is-open { display: flex; }
+    .video-modal video { max-height: 92vh; max-width: 92vw; width: auto; background: #000; box-shadow: 0 0 0 2px #fff; }
+    .video-modal .close-btn { position: absolute; top: 20px; right: 28px; color: #fff; font-size: 2.2rem; line-height: 1; cursor: pointer; background: none; border: 0; font-weight: 900; }
+    .video-modal .hint { position: absolute; bottom: 20px; left: 0; right: 0; text-align: center; color: #bbb; font-size: .8rem; font-weight: 700; letter-spacing: .08em; }
+    .misc-grid { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 1.2rem; margin-top: 2rem; }
+    .misc-card { background: #fff; border: 3px solid var(--ink); box-shadow: 6px 6px 0 var(--ink); display: flex; flex-direction: column; }
+    .misc-card img, .misc-card video { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; border-bottom: 3px solid var(--ink); background: #000; }
+    .misc-card video { cursor: pointer; }
+    .misc-body { padding: .9rem 1rem 1.1rem; display: flex; flex-direction: column; gap: .5rem; flex: 1; }
+    .misc-body h4 { margin: 0; font-family: Impact,"Arial Black",sans-serif; font-size: 1.05rem; letter-spacing: .02em; }
+    .misc-body p { margin: 0; font-size: .76rem; font-weight: 700; line-height: 1.55; color: #444; flex: 1; }
+    .misc-body a { display: inline-flex; align-items: center; justify-content: center; gap: .4rem; margin-top: .4rem; padding: .55rem .8rem; background: var(--blue); color: #fff; font-size: .78rem; font-weight: 900; letter-spacing: .05em; text-decoration: none; border: 2px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); }
+    .misc-body a svg { width: 1em; height: 1em; fill: currentColor; }
+    @media (max-width: 1100px) { .misc-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 600px) { .misc-grid { grid-template-columns: 1fr; } .misc-card { max-width: 22rem; margin: 0 auto; width: 100%; } }
+    @media (max-width: 880px) { .zx-grid { grid-template-columns: 1fr; } .zx-card { max-width: 22rem; margin: 0 auto; width: 100%; } }
+    @media (max-width: 760px) { .feature-grid { gap: 2.25rem; } .feature-title { font-size: clamp(3.55rem, 16vw, 5.6rem); } .feature-meta { margin-top: 1.35rem; line-height: 1.75; } .feature-role-card { width: 100%; gap: 1rem; padding: 1.35rem; } }
+  </style>
+  <style>
+    /* 首页沿用原作品集的拼贴构图；其余内容区保持现有结构。 */
+    .nav { display: none; }
+    .hero-new { background: var(--paper); border-top: 8px solid var(--blue); padding: 5vh 6vw 6vh; }
+    .hero-new > h1 { text-align: center; margin: 0 0 4vh; font-family: Impact,"Arial Black",sans-serif; font-size: clamp(3.5rem, 8vw, 8rem); line-height: .9; color: var(--blue); letter-spacing: .02em; }
+    .hero-new > .hero-sub-title { text-align: center; margin: -2.5vh 0 4vh; font-size: clamp(.9rem,1.2vw,1.15rem); font-weight: 900; letter-spacing: .14em; color: var(--ink); }
+    .hero-row { display: grid; grid-template-columns: minmax(260px, 380px) 1fr; gap: 4vw; align-items: center; max-width: 1200px; margin: 0 auto; }
+    .hero-photo { overflow: hidden; box-shadow: 10px 10px 0 var(--blue); }
+    .hero-photo img { width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: center 20%; display: block; }
+    .hero-info h2 { margin: 0 0 .4rem; font-family: Impact,"Arial Black",sans-serif; font-size: clamp(2rem, 3.5vw, 3.2rem); line-height: 1; color: var(--ink); letter-spacing: .02em; }
+    .hero-meta { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: .9rem 2rem; }
+    .hero-meta li { display: flex; flex-direction: column; padding-bottom: .55rem; border-bottom: 2px solid var(--ink); }
+    .hero-meta b { font-size: .68rem; color: var(--blue); letter-spacing: .14em; margin-bottom: .25rem; font-weight: 900; }
+    .hero-meta span { font-weight: 900; font-size: 1rem; }
+    @media (max-width: 760px) { .hero-row { grid-template-columns: 1fr; } .hero-photo { max-width: 320px; margin: 0 auto; } .hero-meta { grid-template-columns: 1fr; } } .home-title { top: 1.6rem; } .home-title h1 { font-size: clamp(2.75rem, 12.5vw, 4.3rem); } .home-title p { margin-top: .65rem; font-size: .77rem; letter-spacing: .07em; } .home-circle { top: 27vh; left: 3vw; width: 54vw; } .home-star { top: 23vh; left: 2vw; font-size: 4.6rem; } .home-photo-left { top: 33vh; left: 8vw; width: 39vw; padding: .35rem; } .home-bubble { top: 38vh; left: 3vw; width: 38vw; padding: .72rem .8rem; border-width: 2px; border-radius: .9rem; font-size: .69rem; line-height: 1.65; } .home-bubble::after { right: -.72rem; bottom: .75rem; width: 1rem; height: 1rem; border-width: 2px; } .home-blue-frame { top: 34vh; left: 51vw; width: 37vw; height: 54vw; } .home-photo-center { top: 35.5vh; left: 52vw; width: 33vw; } .home-actions { top: 20vh; right: 4vw; gap: .6rem; } .home-actions a { width: 8.8rem; height: 2.85rem; border-radius: .75rem; font-size: .92rem; gap: .45rem; } .home-about { right: 10vw; bottom: 8vh; width: 9.8rem; padding: .8rem; } .home-about h2 { font-size: 1.28rem; } .home-about-grid { gap: 1rem; font-size: .66rem; } .home-about p { font-size: .58rem; line-height: 1.45; } .home-barcode { right: 5vw; bottom: 3.7vh; width: 4rem; height: 2.2rem; } .home-barcode::after { font-size: .48rem; } .home-pager { bottom: 3.8vh; } }
+  </style>
+  <style>
+    /* 谢幺幺：中文标题与四段竖版视频均保留充足的字距、行距和留白。 */
+    .chapter .aigc-content-title { letter-spacing: .14em; line-height: 1.14; }
+    .matrix-description { max-width: 760px; margin: 1.4rem 0 0; font-size: clamp(1rem, 1.35vw, 1.3rem); line-height: 1.78; letter-spacing: .025em; }
+    .virtual-ip-title { margin: 0; font-family: "PingFang SC", "Microsoft YaHei", sans-serif; font-size: clamp(2rem, 3.25vw, 3.85rem); font-weight: 900; line-height: 1.36; letter-spacing: .12em; }
+    .virtual-ip-title span { display: block; }
+    .virtual-ip-title span + span { margin-top: .35em; letter-spacing: .18em; }
+    .character-grid { align-items: start; gap: clamp(1rem, 1.6vw, 1.7rem); }
+    .character-grid figure { display: block; overflow: hidden; aspect-ratio: 9 / 16; padding: .45rem; border: 4px solid #000; background: #000; box-shadow: none; }
+    .character-grid figure.is-square { aspect-ratio: 1 / 1; }
+    .character-grid video { display: block; width: 100%; height: 100%; object-fit: contain; background: #000; }
+    @media (max-width: 760px) { .chapter .aigc-content-title { letter-spacing: .11em; line-height: 1.12; } .virtual-ip-title { font-size: clamp(1.75rem, 8vw, 2.45rem); line-height: 1.42; letter-spacing: .09em; } .character-grid { gap: 1.05rem; } .character-grid figure { padding: .3rem; border-width: 3px; } }
+  </style>
+  <style>
+    /* Keep / Account Strategy：双账号内容路径。数据和图片由 accountsData 渲染，便于后续替换。 */
+    .account-strategy { background: #fff; }
+    .strategy-intro { max-width: 850px; margin: 0 0 clamp(3rem, 6vw, 5.4rem); font-size: clamp(1.02rem, 1.4vw, 1.34rem); font-weight: 800; line-height: 1.85; letter-spacing: .025em; }
+    .account-paths { display: grid; grid-template-columns: 1fr; align-items: stretch; border: var(--line); }
+    .account-card { display: grid; gap: clamp(1.4rem, 2.6vw, 2.6rem); padding: clamp(1.5rem, 3.7vw, 4rem); background: #fff; }
+    .account-card + .account-card { border-top: var(--line); }
+    .account-card.is-primary, .account-card.is-secondary { grid-template-columns: minmax(18rem, .72fr) minmax(0, 1.28fr); align-items: start; }
+    .account-copy { min-width: 0; }
+    .account-number { margin: 0 0 .7rem; color: var(--blue); font-size: .76rem; font-weight: 900; letter-spacing: .14em; }
+    .account-name { margin: 0; line-height: 1; letter-spacing: 0; white-space: nowrap; }
+    .account-head { display: flex; align-items: center; gap: 1.1rem; flex-wrap: wrap; }
+    .account-home { flex: 0 0 auto; display: inline-flex; align-items: center; gap: .45rem; padding: .55rem .95rem; border: 2px solid var(--ink); background: #fff; color: var(--ink); font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: .82rem; font-weight: 900; letter-spacing: .04em; text-decoration: none; box-shadow: 4px 4px 0 var(--ink); transition: transform .15s ease, box-shadow .15s ease, background .15s ease, color .15s ease; }
+    .account-home:hover, .account-home:focus-visible { transform: translate(-2px,-2px); box-shadow: 6px 6px 0 var(--ink); background: var(--blue); color: #fff; }
+    .account-home svg { width: 1.05em; height: 1.05em; fill: currentColor; flex: 0 0 auto; }
+
+    /* 代表作品：三类代表作卡片 */
+    .works-section { background: var(--ink); color: #fff; }
+    .works-section .eyebrow { color: var(--pink); }
+    .works-section .title { color: #fff; }
+    .works-intro { max-width: 760px; font-weight: 700; line-height: 1.75; font-size: 1.02rem; color: #e9e9e9; margin: 0 0 2.6rem; }
+    .works-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 1.6rem; }
+    .work-card { display: flex; flex-direction: column; background: #fff; color: var(--ink); border: 3px solid #fff; box-shadow: 8px 8px 0 rgba(0,0,0,.85); text-decoration: none; transition: transform .18s ease, box-shadow .18s ease; }
+    .work-card:hover, .work-card:focus-visible { transform: translate(-3px,-3px); box-shadow: 12px 12px 0 var(--blue); }
+    .work-cover { position: relative; overflow: hidden; background: #000; }
+    .work-cover img { width: 100%; display: block; }
+    .work-cover video { width: 100%; height: auto; display: block; background: #000; }
+    .work-cover-placeholder { width: 100%; height: 100%; display: grid; place-items: center; text-align: center; padding: 1.2rem; background: linear-gradient(150deg,#fa69b5 0%,#ffd6e8 55%,#fff 100%); color: #171717; }
+    .work-cover-placeholder .ph-title { font-family: Impact,"Arial Black",sans-serif; font-size: clamp(1.6rem,2.4vw,2.4rem); line-height: 1; letter-spacing: .02em; }
+    .work-cover-placeholder .ph-sub { margin-top: .6rem; font-size: .78rem; font-weight: 900; letter-spacing: .12em; }
+    .work-body { display: flex; flex-direction: column; gap: .7rem; padding: 1.1rem 1.2rem 1.3rem; flex: 1; }
+    .work-cat { align-self: flex-start; padding: .25rem .6rem; background: var(--blue); color: #fff; font-size: .68rem; font-weight: 900; letter-spacing: .12em; }
+    .work-title { margin: 0; font-family: Impact,"Arial Black",sans-serif; font-size: 1.35rem; line-height: 1.15; letter-spacing: .01em; }
+    .work-stats { display: flex; gap: 1rem; align-items: baseline; }
+    .work-stats b { color: var(--pink); font-family: Impact,"Arial Black",sans-serif; font-size: 1.5rem; line-height: 1; }
+    .work-stats small { font-size: .72rem; font-weight: 900; color: #555; letter-spacing: .05em; }
+    .work-thinking { margin: 0; font-size: .86rem; font-weight: 700; line-height: 1.65; color: #222; }
+    .work-roles { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: auto; padding-top: .4rem; }
+    .work-roles span { padding: .28rem .55rem; background: #f1f2f4; font-size: .7rem; font-weight: 900; letter-spacing: .03em; color: #333; }
+    .work-cta { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; margin-top: .8rem; padding: .7rem .9rem; background: var(--blue); color: #fff; font-size: .82rem; font-weight: 900; letter-spacing: .06em; border: 2px solid var(--ink); box-shadow: 4px 4px 0 var(--ink); transition: transform .15s ease, box-shadow .15s ease, background .15s ease; }
+    .work-card:hover .work-cta, .work-cta:hover { background: #00418c; transform: translate(-1px,-1px); box-shadow: 5px 5px 0 var(--ink); }
+    .work-cta svg { width: 1.1em; height: 1.1em; fill: currentColor; flex: 0 0 auto; }
+    @media (max-width: 880px) { .works-grid { grid-template-columns: 1fr; } .work-card { max-width: 26rem; margin: 0 auto; width: 100%; } }
+    .account-card.is-primary .account-name { font-size: clamp(2.2rem, 3.2vw, 4rem); }
+    .account-card.is-secondary .account-name { font-size: clamp(2rem, 2.6vw, 3rem); }
+    .account-role { margin: 1.45rem 0 0; color: var(--blue); font-size: clamp(1rem, 1.45vw, 1.36rem); font-weight: 900; line-height: 1.35; }
+    .account-description { margin: 1rem 0 0; font-size: clamp(.95rem, 1.2vw, 1.14rem); font-weight: 700; line-height: 1.75; }
+    .account-shots { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; align-items: start; }
+    .account-card.is-primary .account-shots { grid-template-columns: repeat(2, minmax(0, 1fr)); width: min(100%, 26rem); justify-self: center; gap: .8rem; }
+    .phone-shot { position: relative; margin: 0; align-self: start; border: 4px solid var(--ink); background: var(--ink); padding: .55rem; box-shadow: 8px 8px 0 var(--blue); transform: rotate(-1.7deg); }
+    .phone-shot:nth-child(even) { transform: rotate(1.5deg); }
+    .phone-shot img { display: block; width: 100%; aspect-ratio: 1179 / 2301; object-fit: cover; object-position: top; }
+    .account-card.is-secondary .account-shots { grid-template-columns: repeat(2, minmax(0, 1fr)); width: min(100%, 22rem); justify-self: center; }
+    .account-card.is-secondary .phone-shot { margin-top: .65rem; box-shadow: 7px 7px 0 var(--blue); }
+    .content-tags { display: flex; flex-wrap: wrap; gap: .55rem; margin: 1.45rem 0 0; }
+    .content-tags span { border: 2px solid var(--ink); padding: .45rem .68rem; font-size: .78rem; font-weight: 900; line-height: 1.2; }
+    .account-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin-top: 1.85rem; border: 3px solid var(--ink); background: var(--ink); }
+    .account-stat { min-height: 7.35rem; padding: 1rem 1.15rem; border-right: 2px solid var(--pink); color: #fff; }
+    .account-stat:last-child { border-right: 0; }
+    .account-stat b { display: block; color: var(--pink); font-family: Impact, "Arial Black", sans-serif; font-size: clamp(1.7rem, 2.15vw, 2.75rem); font-weight: 900; line-height: .95; letter-spacing: .015em; white-space: nowrap; }
+    .account-stat small { display: block; margin-top: .6rem; font-size: .72rem; font-weight: 900; line-height: 1.42; }
+    .relationship { margin-top: clamp(3.5rem, 8vw, 7rem); padding-top: clamp(2rem, 4vw, 3.5rem); border-top: var(--line); }
+    .relationship h3 { margin: 0; font-size: clamp(1.6rem, 3vw, 3.1rem); line-height: 1; }
+    .relationship-map { display: grid; grid-template-columns: 1fr 1fr; gap: 0; max-width: 950px; margin: 2.3rem auto 0; text-align: center; }
+    .relationship-ip { grid-column: 1 / -1; justify-self: center; width: min(100%, 19rem); margin-bottom: 2rem; padding: 1rem; border: var(--line); background: var(--blue); color: #fff; font-family: Impact, "Arial Black", sans-serif; font-size: 1.55rem; letter-spacing: .04em; }
+    .relationship-branch { position: relative; padding: 1.5rem clamp(1rem, 3vw, 3rem) 0; border-top: var(--line); }
+    .relationship-branch + .relationship-branch { border-left: var(--line); }
+    .relationship-branch b { display: block; font-size: clamp(1.1rem, 2vw, 1.65rem); }
+    .relationship-branch span { display: block; margin-top: .8rem; font-size: .9rem; font-weight: 800; line-height: 1.75; }
+    .relationship-summary { max-width: 690px; margin: 2.5rem 0 0; font-size: clamp(1rem, 1.4vw, 1.25rem); font-weight: 900; line-height: 1.75; }
+    @media (max-width: 880px) { .account-paths { grid-template-columns: 1fr; } .account-card + .account-card { border-top: var(--line); border-left: 0; } .account-card.is-secondary { grid-template-columns: minmax(10rem, .65fr) 1fr; align-items: start; } .account-card.is-secondary .account-shots { grid-template-columns: repeat(2, minmax(0, 1fr)); } .account-card.is-secondary .phone-shot { margin: 0; } }
+    @media (max-width: 600px) { .strategy-intro { margin-bottom: 2.7rem; } .account-card.is-primary, .account-card.is-secondary { grid-template-columns: 1fr; } .account-card { padding: 1.5rem; } .account-shots { width: min(86vw, 25rem); justify-self: center; } .account-card.is-secondary .account-shots { grid-template-columns: repeat(2, minmax(0, 1fr)); } .phone-shot { width: auto; } .account-card.is-secondary .phone-shot { width: auto; } .account-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } .account-stat { min-height: 6.2rem; padding: .9rem; border-bottom: 2px solid var(--pink); } .account-stat:nth-child(2) { border-right: 0; } .account-stat:last-child { border-bottom: 0; } .relationship-map { grid-template-columns: 1fr; } .relationship-branch + .relationship-branch { border-top: var(--line); border-left: 0; } }
+  </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="nav"><a class="mark impact" href="#home">HYX ✦</a><div class="nav-links"><a href="#work">精选项目</a><a href="#lab">AI 实验室</a><a href="#about">关于我</a></div></nav>
+  <main>
+<section id="home" class="hero-new">
+      <h1>PORTFOLIO</h1>
+      <p class="hero-sub-title">AIGC 内容 · AI Agent · 视觉叙事</p>
+      <div class="hero-row">
+        <div class="hero-photo"><img src="assets/portrait.jpg" alt="胡宇萱"></div>
+        <div class="hero-info">
+          <h2>胡宇萱</h2>
+          <ul class="hero-meta">
+            <li><b>性别</b><span>女</span></li>
+            <li><b>年龄</b><span>21 岁</span></li>
+            <li><b>最高学历</b><span>本科（27 届）</span></li>
+            <li><b>毕业院校</b><span>南昌大学 · 广播电视学</span></li>
+            <li><b>电话</b><span>18170056289</span></li>
+            <li><b>邮箱</b><span>2975068538@qq.com</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="ticker"><span>AIGC CONTENT ✦ AI AGENT ✦ CONTENT STRATEGY ✦ VISUAL STORYTELLING ✦ AIGC CONTENT ✦ AI AGENT ✦ CONTENT STRATEGY ✦ VISUAL STORYTELLING ✦ </span></div>
+    <section id="work" class="section featured"><p class="eyebrow">01 / 核心案例</p><div class="feature-grid"><div><h2 class="feature-title"><span class="keep-word">KEEP</span><span class="case-word">实习案例</span></h2><p class="feature-meta">AIGC 内容运营 × AI 系统搭建<br>虚拟健身教练 IP 账号运营 · 内容运营 Agent 0→1 搭建</p></div><a class="feature-role-card" href="#keep" aria-label="查看 Keep 实习案例详情"><p class="role-label">岗位信息</p><p class="role-company">KEEP<br>AIGC 运营实习生</p><p class="role-time">2026.07 至今</p><div class="role-divider" aria-hidden="true"></div><div class="role-directions"><span><b>01</b><em>虚拟健身教练 IP 账号运营</em></span><span><b>02</b><em>内部内容运营 Agent 0→1 搭建</em></span></div></a></div></section>
+    <section class="section pink"><div class="chapter"><div><p class="eyebrow" style="color:#000">CHAPTER 01</p><h2 class="impact aigc-content-title">AIGC<br>CONTENT<br>&amp; IP</h2></div><div><h3 class="virtual-ip-title"><span>虚拟IP运营：</span><span>谢幺幺</span></h3><p class="matrix-description">围绕“谢幺幺”搭建双账号 AIGC 内容矩阵：以“谢幺幺爱跳操”通过健身游戏、燃脂操等利他型内容实现高频稳定产出与用户拉新；以“谢幺幺谢邀”塑造更具人格感的 Q 版 IP，通过情绪与日常内容建立用户情感连接，并探索联名、周边、盲盒等商业化可能。同时将爆款内容拆解为可复用的生产 SOP，形成从内容生产、账号增长到 IP 资产沉淀的完整运营链路。</p></div></div><div class="character-grid"><figure style="--r:-2deg"><video autoplay muted loop playsinline preload="metadata" aria-label="谢幺幺 AIGC 视频一"><source src="assets/xie-yaoyao/xie-yaoyao.mp4" type="video/mp4" /></video></figure><figure style="--r:2deg"><video autoplay muted loop playsinline preload="metadata" aria-label="谢幺幺 AIGC 视频二"><source src="assets/xie-yaoyao/yaoyao.mp4" type="video/mp4" /></video></figure><figure class="is-square" style="--r:-1deg"><video autoplay muted loop playsinline preload="metadata" aria-label="谢幺幺 AIGC 视频三"><source src="assets/xie-yaoyao/q-yao-visual.mp4" type="video/mp4" /></video></figure><figure style="--r:3deg"><video autoplay muted loop playsinline preload="metadata" aria-label="谢幺幺 AIGC 视频四"><source src="assets/xie-yaoyao/q-yao.mp4" type="video/mp4" /></video></figure></div></section>
+    <section id="account-strategy" class="section account-strategy" aria-label="谢幺幺虚拟 IP 双账号内容矩阵">
+      <p class="eyebrow">ACCOUNT STRATEGY</p>
+      <p class="strategy-intro">一个谢幺幺，两种内容路径，共同构建可持续增长的虚拟 IP。<br>在 Keep 实习期间，负责「谢幺幺」虚拟 IP 的 AIGC 内容运营，围绕「谢幺幺爱跳操」与「谢幺幺谢邀」打造双账号内容矩阵。前者通过利他型健身内容扩大用户触达，后者通过 Q 版角色内容强化人格认知，逐步探索虚拟 IP 的长期价值。</p>
+      <div id="accounts-data" class="account-paths" aria-label="谢幺幺双账号内容矩阵"></div>
+    </section>
+    <section class="section works-section"><div class="works-grid"><a class="work-card" href="https://v.douyin.com/0K_IJriT8T8/" target="_blank" rel="noopener noreferrer"><div class="work-cover"><video autoplay muted loop playsinline preload="metadata" aria-label="华语天后金曲 30 分钟燃脂操视频"><source src="assets/works/work-kpop.mp4" type="video/mp4"/></video></div><div class="work-body"><span class="work-cat">TYPE 01 · 跳操合集</span><h3 class="work-title">华语天后金曲合集<br>30 分钟超暴汗燃脂</h3><div class="work-stats"><b>2.4W</b><small>点赞量</small><b>1.9W</b><small>收藏量</small></div><p class="work-thinking">以动感人气舞曲为 BGM，结合原曲动作元素改编跳操，时尚有节奏感，贴合 18-35 岁都市女性审美，借势当下热门歌单与联动热点。</p><div class="work-roles"><span>选题讨论</span><span>造型设计生成</span><span>舞蹈动作生成</span><span>封面制作</span></div><span class="work-cta"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>查看视频</span></div></a><a class="work-card" href="https://v.douyin.com/PlLv9ayLABo/" target="_blank" rel="noopener noreferrer"><div class="work-cover"><video autoplay muted loop playsinline preload="metadata" aria-label="Tomboy 卡点游戏瘦手瘦背视频"><source src="assets/works/work-game.mp4" type="video/mp4"/></video></div><div class="work-body"><span class="work-cat">TYPE 02 · 卡点游戏</span><h3 class="work-title">Tomboy 音游卡点<br>6 分钟瘦手瘦背</h3><div class="work-stats"><b>10.8W</b><small>点赞量</small><b>9.1W</b><small>收藏量</small></div><p class="work-thinking">模拟音游卡点形式增加健身趣味，用瘦手臂、瘦腿等简单重复的局部动作降低跟练门槛，"刷到就能直接练"，切中年轻人局部塑形需求。</p><div class="work-roles"><span>选题讨论</span><span>造型设计生成</span><span>舞蹈动作生成</span><span>封面制作</span></div><span class="work-cta"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>查看视频</span></div></a><a class="work-card" href="https://v.douyin.com/tcnp-jqRLCc/" target="_blank" rel="noopener noreferrer"><div class="work-cover"><video autoplay muted loop playsinline preload="metadata" aria-label="少女心事无处安放的野心 AI 短片"><source src="assets/works/work-story.mp4" type="video/mp4"/></video></div><div class="work-body"><span class="work-cat">TYPE 03 · 剧情短片</span><h3 class="work-title">20 多岁的少女心事<br>无处安放的野心</h3><div class="work-stats"><b>4417</b><small>点赞量</small></div><p class="work-thinking">围绕谢幺幺 IP 世界观与人设，结合观众热议话题与生活痛点，用治愈向故事打动人心，丰富虚拟人物性格，缩短 AI 角色与观众的心理距离。</p><div class="work-roles"><span>选题讨论</span><span>脚本撰写</span><span>造型设计生成</span><span>画面内容生成</span></div><span class="work-cta"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>查看视频</span></div></a></div></section>
+    <section class="section featured"><p class="eyebrow">02 / 核心案例</p><div class="feature-grid"><div><h2 class="feature-title"><span class="keep-word keep-word-sm">HiDream.ai</span><span class="case-word">智象元一 · 实习案例</span></h2><p class="feature-meta">AIGC 内容规模化交付 × 海外运营</p></div><a class="feature-role-card" href="#zxwl" aria-label="查看 HiDream.ai 实习案例详情"><p class="role-label">岗位信息</p><p class="role-company">HiDream.ai（智象元一）<br>海外运营实习生</p><p class="role-time">2025.07 – 2026.03</p><div class="role-divider" aria-hidden="true"></div><div class="role-directions"><span><b>01</b><em>AIGC 内容规模化交付</em></span><span><b>02</b><em>市场洞察与账号运营</em></span></div></a></div></section>
+    <section class="section zx-section"><p class="eyebrow">HiDream.ai WORKS / AIGC 海外电商短视频</p><h2 class="impact title">交付样片展示</h2><p style="max-width:760px;font-weight:700;line-height:1.75;font-size:1rem;color:#e9e9e9;margin:0 0 1rem;">在 HiDream.ai 实习期间，用 Vivago 等生成式 AI 工具完成的海外电商信息流短视频，覆盖家具、营养保健、3C 等品类，适配多平台投放。</p>
+    <div class="zx-group"><span class="zx-group-label">TYPE 01 · 商品广告 / 卖点可视化</span><p class="zx-group-desc">把商品功能与卖点直接翻译成画面语言——功能特写、本地化场景、英/外文字幕。</p><div class="zx-grid">
+    <div class="zx-card"><video src="assets/zx/zx-furniture.mp4" autoplay muted loop playsinline></video><div class="zx-card-body"><h4>Furniture · 功能特写</h4></div></div>
+    <div class="zx-card"><video src="assets/zx/zx-nutrition.mp4" autoplay muted loop playsinline></video><div class="zx-card-body"><h4>Nutrition · 本地化场景</h4></div></div>
+    <div class="zx-card"><video src="assets/zx/zx-digital-human.mp4" autoplay muted loop playsinline></video><div class="zx-card-body"><h4>Digital Human · 场景口播</h4></div></div>
+    </div></div>
+    <div class="zx-group"><span class="zx-group-label">TYPE 02 · AI 人像 IP 生成</span><p class="zx-group-desc">稳定生成不同族裔、性别、风格的 AI 人像，并放入日常/镜前场景叙事。</p><div class="zx-grid">
+    <div class="zx-card"><video src="assets/zx/zx-ootd.mp4" autoplay muted loop playsinline></video><div class="zx-card-body"><h4>OOTD · 镜前自拍</h4></div></div>
+    <div class="zx-card"><video src="assets/zx/zx-suit.mp4" autoplay muted loop playsinline></video><div class="zx-card-body"><h4>Portrait · 镜前自拍</h4></div></div>
+    <div class="zx-card"><video src="assets/zx/zx-street.mp4" autoplay muted loop playsinline></video><div class="zx-card-body"><h4>Street · 时尚街拍</h4></div></div>
+    </div></div>
+    <div class="zx-group"><span class="zx-group-label">TYPE 03 · 创意产品展示</span><p class="zx-group-desc">用脑洞创意与场景氛围做产品展示，区别于硬广，提升完播与互动。</p><div class="zx-grid">
+    <div class="zx-card"><video src="assets/zx/zx-creative-3.mp4" autoplay muted loop playsinline></video><div class="zx-card-body"><h4>Scene · 家居氛围空镜</h4></div></div>
+    <div class="zx-card"><video src="assets/zx/zx-creative-2.mp4" autoplay muted loop playsinline></video><div class="zx-card-body"><h4>Scene · 节奏感快剪</h4></div></div>
+    <div class="zx-card"><video src="assets/zx/zx-creative-1.mp4" autoplay muted loop playsinline></video><div class="zx-card-body"><h4>Idea · 黏土脑洞广告</h4></div></div>
+    </div></div>
+    </section>
+    <section class="section"><p class="eyebrow">OTHER WORKS / 课程与个人创作</p><h2 class="impact title">其他视频制作</h2><p style="max-width:720px;font-weight:700;line-height:1.7;font-size:1rem;margin:0 0 .5rem;">我在课程作业与个人创作中尝试过出镜报道、Vlog、微电影等视频类型，锻炼从选题、拍摄到剪辑的完整内容链路。点击视频可放大查看（PS：可以当小尬剧看）。</p><div class="misc-grid">
+    <div class="misc-card"><video src="assets/misc/misc-report.mp4" autoplay muted loop playsinline></video><div class="misc-body"><h4>出镜报道</h4><p>现场活动手持话筒报道，练习现场出镜与新闻叙事。</p></div></div>
+    <div class="misc-card"><video src="assets/misc/misc-vlog.mp4" autoplay muted loop playsinline></video><div class="misc-body"><h4>Vlog</h4><p>"把自己重新养一遍"生活向 Vlog，练习第一视角叙事。</p></div></div>
+    <div class="misc-card"><video src="assets/misc/misc-film.mp4" autoplay muted loop playsinline></video><div class="misc-body"><h4>微电影 · 南昌治愈日记</h4><p>剧情短片，练习导演思维、镜头语言与后期调色。</p></div></div>
+    <div class="misc-card"><video src="assets/misc/misc-breakdown.mp4" autoplay muted loop playsinline></video><div class="misc-body"><h4>拉片介绍</h4><p>对电影《少年的你》片段做镜头语言与叙事结构拆解。</p></div></div>
+    </div></section>
+  <section class="note-section">
+      <span class="note-star s1" aria-hidden="true">✦</span>
+      <span class="note-star s2" aria-hidden="true">✦</span>
+      <div class="note-stage">
+        <figure class="note-side left"><img src="assets/note-left.png" alt="胡宇萱生活照"></figure>
+        <div class="note-card">
+          <p>你好，感谢你看到这里。在最后的最后，我还想补充一点自我介绍：我的 MBTI 是 <strong>ENTP</strong>，向往有挑战性、创新性的工作，期待与怀揣着热情和理想的团队一起共事。</p>
+          <p>我的简历和作品集无法完全描述我，我相信自己有着远超于此的能力和潜力，也有不断学习新事物和挑战自我的决心与毅力。希望未来我们有机会一起合作、共事！</p>
+          <p>邮箱：<a class="note-mail" href="mailto:2975068538@qq.com">2975068538@qq.com</a><br>期待进一步沟通～</p>
+        </div>
+        <figure class="note-side right"><img src="assets/note-right.png" alt="胡宇萱活动照"></figure>
+      </div>
+    </section>
+  </main><footer class="footer"><p class="impact">HU YUXUAN / 福以仙 ✦</p></footer>
+  <script>
+    // 单一数据源：后续替换账号图片、统计数字或文案时，只需修改这里。
+    const accountsData = [
+      {
+        id: '01', name: '谢幺幺爱跳操', role: '利他型健身内容账号 · 内容增长路径',
+        description: '通过 K-pop、燃脂操、拉伸等运动内容，为用户提供低门槛、有趣的健身体验，实现稳定内容输出与用户增长。',
+        tags: ['K-pop 舞蹈', '燃脂操', '拉伸塑形', '漫剧人设内容'],
+        stats: [['30W+', '全网粉丝量'], ['4W+', '实习期间新增粉丝'], ['22条', '产出视频'], ['620W+', '累计播放量']],
+        homeUrl: 'https://v.douyin.com/RJntnBxwTVU/',
+        images: [
+          { src: 'assets/accounts/xie-yaoyao-love-dance-douyin.jpeg', alt: '谢幺幺爱跳操抖音账号主页截图' },
+          { src: 'assets/accounts/xie-yaoyao-love-dance-xiaohongshu.jpeg', alt: '谢幺幺爱跳操小红书账号主页截图' }
+        ], primary: true
+      },
+      {
+        id: '02', name: '谢幺幺谢邀', role: '角色型内容账号 · IP 建设路径',
+        description: '通过 Q 版角色、日常生活、情绪内容建立谢幺幺人格认知，探索虚拟 IP 长期运营路径。',
+        tags: ['Q版日常', '情绪表达', 'IP 人设构建'],
+        homeUrl: 'https://v.douyin.com/X-zKMV3aGBs/',
+        images: [
+          { src: 'assets/accounts/xie-yaoyao-thanks-douyin.jpeg', alt: '谢幺幺谢邀抖音账号主页截图' },
+          { src: 'assets/accounts/xie-yaoyao-thanks-xiaohongshu.jpeg', alt: '谢幺幺谢邀小红书账号主页截图' }
+        ], primary: false
+      }
+    ];
+
+    const accountMount = document.querySelector('#accounts-data');
+    const escapeHTML = (value) => String(value).replace(/[&<>'"]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#039;', '"': '&quot;' })[character]);
+    accountMount.innerHTML = accountsData.map((account) => {
+      const tags = account.tags.map((tag) => `<span>${escapeHTML(tag)}</span>`).join('');
+      const stats = account.stats ? `<div class="account-stats">${account.stats.map(([number, label]) => `<div class="account-stat"><b>${escapeHTML(number)}</b><small>${escapeHTML(label)}</small></div>`).join('')}</div>` : '';
+      const images = account.images.map((image) => `<figure class="phone-shot"><img src="${escapeHTML(image.src)}" alt="${escapeHTML(image.alt)}" loading="lazy"></figure>`).join('');
+      const homeLink = account.homeUrl ? `<a class="account-home" href="${escapeHTML(account.homeUrl)}" target="_blank" rel="noopener noreferrer" aria-label="打开${escapeHTML(account.name)}主页"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7h-2V6.4l-9.3 9.3-1.4-1.4L17.6 5H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg>打开主页</a>` : '';
+      return `<article class="account-card ${account.primary ? 'is-primary' : 'is-secondary'}"><div class="account-shots">${images}</div><div class="account-copy"><p class="account-number">ACCOUNT ${escapeHTML(account.id)}</p><div class="account-head"><h3 class="impact account-name">${account.name}</h3>${homeLink}</div><p class="account-role">${escapeHTML(account.role)}</p><p class="account-description">${escapeHTML(account.description)}</p><div class="content-tags">${tags}</div>${stats}</div></article>`;
+    }).join('');
+  </script>
+<div class="video-modal" id="videoModal" role="dialog" aria-modal="true"><button class="close-btn" id="videoModalClose" aria-label="关闭">×</button><video id="videoModalPlayer" controls playsinline></video><p class="hint">点击 × 或按 ESC 关闭</p></div>
+<script>
+(function(){
+  var modal = document.getElementById('videoModal');
+  var player = document.getElementById('videoModalPlayer');
+  var closeBtn = document.getElementById('videoModalClose');
+  function open(src){ player.src = src; player.muted = false; player.play().catch(function(){}); modal.classList.add('is-open'); document.body.style.overflow = 'hidden'; }
+  function close(){ player.pause(); player.removeAttribute('src'); player.load(); modal.classList.remove('is-open'); document.body.style.overflow = ''; }
+  document.querySelectorAll('.zx-card video, .work-card video, .misc-card video').forEach(function(v){ v.addEventListener('click', function(){ open(v.currentSrc || v.src); }); });
+  closeBtn.addEventListener('click', close);
+  modal.addEventListener('click', function(e){ if(e.target === modal) close(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && modal.classList.contains('is-open')) close(); });
+})();
+</script>
+</body></html>
